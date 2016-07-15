@@ -1,0 +1,28 @@
+
+CREATE TABLE tbl_offer(
+  idx 		BIGINT 	NOT NULL 	AUTO_INCREMENT,
+  company	VARCHAR,
+  chief		VARCHAR,
+  comp_num	VARCHAR,
+  comp_num_sub	VARCHAR,
+  condition	VARCHAR,
+  item		VARCHAR,
+  comp_addr	VARCHAR,
+
+  manager 	VARCHAR,
+  position	VARCHAR,
+  phone		VARCHAR,
+  mobile	VARCHAR,
+  email_mng	VARCHAR,
+  email_tax 	VARCHAR,
+  tax_bill	TINTINT,
+  
+  study_addr  	VARCHAR,
+  study_date   	DATETIME,
+  study_num	INT,
+  equipment	INT,
+  memo		VARCHAR,
+  PRIMARY KEY(idx)
+
+);
+
