@@ -1,28 +1,36 @@
 
 CREATE TABLE tbl_offer(
-  idx 		BIGINT 	NOT NULL 	AUTO_INCREMENT,
-  company	VARCHAR,
-  chief		VARCHAR,
-  comp_num	VARCHAR,
-  comp_num_sub	VARCHAR,
-  condition	VARCHAR,
-  item		VARCHAR,
-  comp_addr	VARCHAR,
+  idx 			BIGINT 		NOT NULL 	AUTO_INCREMENT,
+  regDate 		DATETIME,
+  moditfDate		DATETIME,
+  viewCnt		int 		DEFAULT 0,
 
-  manager 	VARCHAR,
-  position	VARCHAR,
-  phone		VARCHAR,
-  mobile	VARCHAR,
-  email_mng	VARCHAR,
-  email_tax 	VARCHAR,
-  tax_bill	TINTINT,
+  company		VARCHAR(50) 	NOT NULL ,
+  chiefName		VARCHAR(20) 	NOT NULL ,
+  compNum		CHAR(12) 	NOT NULL ,
+  compNumSub		CHAR(10) 	NOT NULL ,
+  business		VARCHAR(12),
+  busiItem		VARCHAR(10),
+  compAddr		VARCHAR(500) 	NOT NULL ,
+
+  managerName 		VARCHAR(20) 	NOT NULL ,
+  position		VARCHAR(20),
+  phone			VARCHAR(50),
+  mobile		VARCHAR(50),
+  email			VARCHAR(100),
+  emailTax 		VARCHAR(100),
+  taxBill		BIT(1) 		DEFAULT 0,
   
-  study_addr  	VARCHAR,
-  study_date   	DATETIME,
-  study_num	INT,
-  equipment	INT,
-  memo		VARCHAR,
+  studyAddr  		VARCHAR(500) 	NOT NULL ,
+  studyDate   		DATETIME 	NOT NULL ,
+  studyNum		INT		NOT NULL ,
+  equip01		BIT(1) 		DEFAULT 0,
+  equip02		BIT(1) 		DEFAULT 0,
+  equip03		BIT(1) 		DEFAULT 0,
+  equip04		BIT(1) 		DEFAULT 0,
+  memo			VARCHAR(1000),
+  
   PRIMARY KEY(idx)
 
-);
+) DEFAULT CHARSET = UTF8MB4  COLLATE = UTF8MB4_UNICODE_CI;
 

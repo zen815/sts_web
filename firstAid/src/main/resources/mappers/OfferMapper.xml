@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="ac.firstAid.mapper.OfferMapper">
+	<select id="getTime" resultType="string">
+		SELECT NOW()
+	</select>
+	<insert id="insertOffer">
+		INSERT INTO tbl_offer 
+		(regDate, modifyDate, company, chiefName, compNum, compNumSub,
+		 business, busiItem,	compAddr, managerName, position, phone, mobile,
+		 email, emailTax, taxBill, studyAddr, studyNum, 
+		 equip01, equip02, equip03, equip04, memo)
+		 		VALUES ( now(), now(), 	#{company}, #{chiefName}, #{compNum},	#{compNumSub},
+		 #{business}, #{busiItem},	#{compAddr}, #{managerName}, #{position}, #{phone}, #{mobile}, 
+		 #{email}, #{emailTax}, #{taxBill}, #{studyAddr}, #{studyNum},
+		 #{equip01}, #{equip02}, #{equip03}, #{equip04}, #{memo} )
+	</insert>
+
+
+</mapper>
