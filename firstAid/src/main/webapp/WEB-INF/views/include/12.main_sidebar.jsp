@@ -16,7 +16,7 @@
         <li class="header">주 메뉴</li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-pie-chart"></i>
+            <i class="fa fa-mortar-board"></i>
             <span>교육</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>

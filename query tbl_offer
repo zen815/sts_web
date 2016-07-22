@@ -1,8 +1,8 @@
 
-CREATE TABLE tbl_offer(
+CREATE TABLE tbl_lecture (
   idx 			BIGINT 		NOT NULL 	AUTO_INCREMENT,
-  regDate 		DATETIME,
-  moditfDate		DATETIME,
+  regDate 		TIMESTAMP	DEFAULT NOW(),
+  modifyDate		TIMESTAMP       DEFAULT NOW(),
   viewCnt		int 		DEFAULT 0,
 
   company		VARCHAR(50) 	NOT NULL ,
@@ -22,7 +22,7 @@ CREATE TABLE tbl_offer(
   taxBill		BIT(1) 		DEFAULT 0,
   
   studyAddr  		VARCHAR(500) 	NOT NULL ,
-  studyDate   		DATETIME 	NOT NULL ,
+  studyDate   		TIMESTAMP 	NOT NULL ,
   studyNum		INT		NOT NULL ,
   equip01		BIT(1) 		DEFAULT 0,
   equip02		BIT(1) 		DEFAULT 0,

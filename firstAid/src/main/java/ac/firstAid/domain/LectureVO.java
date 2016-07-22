@@ -2,7 +2,7 @@ package ac.firstAid.domain;
 
 import java.util.Date;
 
-public class OfferVO {
+public class LectureVO {
 	private Integer 	idx;
 	private Date 		regDate;
 	private Date 		modifyDate;
@@ -30,7 +30,7 @@ public class OfferVO {
 	private boolean 	equip04;
 	private String 	memo;
 	
-	public  Integer getIdx() {
+	public Integer getInteger() {
 		return idx;
 	}
 	public Date getRegDate() {
@@ -188,7 +188,7 @@ public class OfferVO {
 	}
 	@Override
 	public String toString() {
-		return "OfferVO [idx=" + idx + ", regDate=" + regDate + ", modifyDate=" + modifyDate + ", viewCnt=" + viewCnt
+		return "LectureVO [idx=" + idx + ", regDate=" + regDate + ", modifyDate=" + modifyDate + ", viewCnt=" + viewCnt
 				+ ", company=" + company + ", chiefName=" + chiefName + ", compNum=" + compNum + ", compNumSub="
 				+ compNumSub + ", business=" + business + ", busiItem=" + busiItem + ", compAddr=" + compAddr
 				+ ", managerName=" + managerName + ", position=" + position + ", phone=" + phone + ", mobile=" + mobile
@@ -199,3 +199,9 @@ public class OfferVO {
 	
 	
 }
+
+
+
+
+
+

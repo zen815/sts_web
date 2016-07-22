@@ -1,0 +1,222 @@
+<table class="basic2_tbl th_left td_left">
+		<tbody><tr>
+			<th style="width:17%">상 호</th>
+			<td style="width:36%">
+				<input type="text" name="ol_3" size="25" value="" onclick="alert('사업자정보는 세금계산서, 교육이수증 발행에 사용되므로 \n반드시 사업자등록증과 동일하게 입력해주세요.')" required="" class=" ed"> 
+			</td>
+			<th style="width:17%">대표자명</th>
+			<td style="width:30%"><input type="text" name="ol_7" itemname="대표자 성명" size="25" value="" required="" class=" ed"> </td>
+		</tr>
+		<tr>
+			<th>사업자번호 </th>
+			<td>
+				<input type="text" name="ol_8_1" itemname="사업자번호1" maxlength="3" size="7" required="" class=" ed"> 
+				<input type="text" name="ol_8_2" itemname="사업자번호2" maxlength="2" size="5" required="" class=" ed"> 
+				<input type="text" name="ol_8_3" itemname="사업자번호3" maxlength="5" size="9" required="" class=" ed"> 
+			</td><th style="letter-spacing:-1px;">종사업장번호 </th>
+			<td>
+				<input type="text" name="ol_8_sub" itemname="종사업장번호" size="25" class=" ed"> 
+			</td>
+		</tr>
+
+		<tr>
+			<th>업태/종목</th>
+			<td>
+				업태 <input type="text" name="ol_uptae" itemname="업태" size="12" value="" required="" class=" ed"> /
+				종목 <input type="text" name="ol_upjong" itemname="종목" size="12" value="" required="" class=" ed"> 
+			</td>
+			<th>담당자</th>
+			<td>
+				성명 <input type="text" name="ol_name" itemname="담당자 성명" maxlength="10" size="8" value="" class="ed" required="">&nbsp;/&nbsp;
+				직책 <input type="text" name="ol_title" itemname="직책" maxlength="10" size="10" value="" class="ed" required="">				
+			</td>
+		</tr>
+		<tr>
+			<th>계산서발행</th>
+			<td>
+				
+				<input type="checkbox" value="yes" name="ol_taxbill" id="ol_taxbill" onclick="checkTax(this.checked);"> <label for="ol_taxbill" style="cursor:hand;">세금계산서 발행요청
+			</label></td>
+			<th>E-mail</th>
+			<td>
+				담당자용 : <input type="text" name="ol_email" size="25" onblur="check_mailformat(this.value)" class="ed" required=""><br>
+				<div id="tax_div" style="display:none">
+				계산서용 : <input type="text" name="ol_email_tax" size="25" onblur="check_mailformat(this.value)" class="ed">
+				</div>
+			</td>
+
+		</tr>
+		<tr>
+			<th>전 화</th>
+			<td>
+				<input type="text" name="ol_tel1" itemname="담당자 전화번호" maxlength="3" size="5" value="" class="ed" required="">-
+				<input type="text" name="ol_tel2" itemname="담당자 전화번호" maxlength="4" size="5" value="" class="ed" required="">-
+				<input type="text" name="ol_tel3" itemname="담당자 전화번호" maxlength="4" size="5" value="" class="ed" required="">
+				내선 :  <input type="text" name="ol_1" itemname="담당자 내선" maxlength="4" size="5" value="" class="ed"> 				
+			</td>
+			<th>핸드폰	</th>
+			<td>
+				<input type="text" name="ol_hp1" itemname="담당자 핸드폰 번호" maxlength="3" size="5" value="" class="ed" required="">-
+				<input type="text" name="ol_hp2" itemname="담당자 핸드폰 번호" maxlength="4" size="5" value="" class="ed" required="">-
+				<input type="text" name="ol_hp3" itemname="담당자 핸드폰 번호" maxlength="4" size="5" value="" class="ed" required=""> 
+			</td> 
+		</tr>
+		<tr>
+			<th>사업장주소</th>
+			<td colspan="3">
+				<input type="text" name="zip" id="zip" style="width:90px; padding:5px; text-align:center; border:1px solid #cacaca;" readonly="">
+				<input type="button" style="width:90px; height:31px; " onclick="execDaumPostcode()" value="우편번호 찾기">
+				<br>
+				<input type="text" name="addr1" id="reg_mb_addr1" style="width:370px; padding:5px; border:1px solid #cacaca;" placeholder="주소" readonly="">
+				<input type="text" name="addr2" id="reg_addr2" style="width:200px; padding:5px; border:1px solid #cacaca;" placeholder="상세주소">
+			</td>
+		</tr>
+
+		<tr> 
+			<th>강의장주소</th>
+			<td colspan="3">
+				<!--강의장주소-->
+				<input type="text" name="zip_b" id="zip_b" style="width:90px; padding:5px; text-align:center; border:1px solid #cacaca;" readonly="">
+				<input type="button" style="width:90px; height:31px;" onclick="execDaumPostcode('b')" value="우편번호 찾기">
+				&nbsp; &nbsp; <input type="checkbox" value="1" name="same_addr" id="same_addr" onclick="sangdong(this.checked);"> <label for="same_addr" style="cursor:pointer;">사업장주소와 동일</label>
+
+				<br>
+				<input type="text" name="addr1_b" id="reg_mb_addr1_b" style="width:370px; padding:5px; border:1px solid #cacaca;" placeholder="주소" readonly="">
+				<input type="text" name="addr2_b" id="reg_addr2_b" style="width:200px; padding:5px; border:1px solid #cacaca;" placeholder="상세주소">
+
+				<input type="hidden" name="ol_12" id="ol_12" itemname="유료교육비용" value=""> 
+				<input type="hidden" name="ol_13" id="ol_13" itemname="강사료" value="">
+				<input type="hidden" name="ol_14" id="ol_14" itemname="파견료" value="">
+			</td>
+		</tr>
+		<tr>
+			<th style="letter-spacing:-1px;">교육희망 일시 </th>
+			<td colspan="3">
+				<input type="text" name="ol_9" size="12" class="calendar ed hasDatepicker" value="" readonly="" id="dp1468989970903"><img class="ui-datepicker-trigger" src="../images/calendar.gif" alt="달력" title="달력">
+				<select name="ol_9_1">
+					<option value="">--</option>
+					<option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option>				</select>
+
+				<select name="ol_9_2">
+					<option value="">--</option>
+					<option value="00">00</option><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option>				</select>
+				&nbsp; &nbsp; &nbsp; &nbsp; 
+				교육시간
+				<select name="ol_time" style="width:70px;">
+					<option value="" selected="">--</option>
+					<option value="30">30분</option>
+					<option value="60">1시간</option>
+					<option value="90">1시간30분</option>
+					<option value="120">2시간</option>
+					<option value="150">2시간30분</option>
+					<option value="180">3시간</option>
+					<option value="210">3시간30분</option>
+					<option value="240">4시간</option>
+					<option value="300">5시간</option>
+					<option value="360">6시간</option>
+					<option value="420">7시간</option>
+					<option value="480">8시간</option>&gt;
+					<option value="999">별도협의</option>
+				</select> 
+				&nbsp; &nbsp; &nbsp; &nbsp; 
+				교육횟수
+				<select name="ol_cnt" id="ol_cnt">
+					<option value="1">1회</option>
+					<option value="2">2회</option>
+					<option value="3">3회</option>
+					<option value="4">4회</option>
+					<option value="5">5회</option>
+					<option value="6">6회</option>
+					<option value="7">7회</option>
+					<option value="8">8회</option>
+					<option value="9">9회</option>
+					<option value="미정">미정</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>교육인원 </th>
+			<td colspan="3">
+				<input type="text" name="ol_2" required="" itemname="교육인원" maxlength="6" size="6" value="" class="ed"> 명
+				<span style="margin-left:20px; color:#ff0000;">고평법 제13조 2항에 따라 사업장 전체 인원입력. 이수증에 표기됨.
+			</span></td>
+		</tr>
+
+
+
+
+
+
+		<tr>
+			<th>빔프로젝트</th>
+			<td>
+				<input style="border-color:#f6f6f6;" type="radio" name="ol_5" value="Yes"> Yes 
+				<input style="border-color:#f6f6f6;" type="radio" name="ol_5" value="No"> No 
+			</td>
+			<th>빔스크린</th>
+			<td>
+				<input style="border-color:#f6f6f6;" type="radio" name="ol_25" value="Yes"> Yes 
+				<input style="border-color:#f6f6f6;" type="radio" name="ol_25" value="No"> No 
+				</td>
+		</tr>
+		
+		<tr>
+			<th>강의실유무</th>
+			<td>
+				<input style="border-color:#FFF;" type="radio" name="ol_4" value="Yes"> Yes 
+				<input style="border-color:#FFF;" type="radio" name="ol_4" value="No"> No 
+			</td>
+			<th>노트북</th>
+			<td>
+				<input style="border-color:#f6f6f6;" type="radio" name="ol_10" value="Yes"> Yes 
+				<input style="border-color:#f6f6f6;" type="radio" name="ol_10" value="No"> No 
+			</td>
+		</tr>
+
+		<tr>
+			<th>개인정보<br>수집동의 </th>
+			<td colspan="3">
+				<textarea style="width:600px;margin-bottom:6px" rows="6" class="ed" readonly="">  '한국성희롱예방센터'는 (이하 '회사'는)
+고객님의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호"에 관한 법률을 준수하고 있습니다.
+
+회사는 개인정보취급방침을 통하여 고객님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.
+
+회사는 개인정보취급방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것입니다.
+
+■ 수집하는 개인정보 항목
+회사는 회원가입, 상담, 서비스 신청 등등을 위해 아래와 같은 개인정보를 수집하고 있습니다.
+
+ο 수집항목 : 이름 , 생년월일 , 성별 , ID , 비밀번호 , 연락처(메일 또는 휴대폰) , 서비스 이용기록 , 접속 로그 , 쿠키 , 접속 IP보 , 결제기록
+ο 개인정보 수집방법 : 홈페이지(회원가입,게시판) 
+
+■ 개인정보의 수집 및 이용목적
+회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다..
+
+ο 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산
+ο 교육진행을 위한 신청인의 개인정보공유(유관기관, 협력업체, 강사)ο 콘텐츠 제공
+ο 회원 관리 : 회원제 서비스 이용에 따른 본인확인 , 개인 식별 , 불량회원의 부정 이용 방지와 비인가 사용 방지 , 가입 의사 확인 , 연령확인 , 만14세 미만 아동 개인정보 수집 시 법정 대리인 동의여부 확인
+ο 마케팅 및 광고에 활용 : 접속 빈도 파악 또는 회원의 서비스 이용에 대한 통계
+
+■ 개인정보의 보유 및 이용기간
+원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.
+
+보존 항목 : ID , 결제기록
+보존 근거 : 신용정보의 이용 및 보호에 관한 법률
+보존 기간 : 3년
+
+표시/광고에 관한 기록 : 6개월 (전자상거래등에서의 소비자보호에 관한 법률)
+계약 또는 청약철회 등에 관한 기록 : 5년 (전자상거래등에서의 소비자보호에 관한 법률)
+대금결제 및 재화 등의 공급에 관한 기록 : 5년 (전자상거래등에서의 소비자보호에 관한 법률)
+소비자의 불만 또는 분쟁처리에 관한 기록 : 3년 (전자상거래등에서의 소비자보호에 관한 법률)
+신용정보의 수집/처리 및 이용 등에 관한 기록 : 3년 (신용정보의 이용 및 보호에 관한 법률)      </textarea><br>
+					동의합니다			<input style="border-color:#FFF;" type="radio" name="ol_6" value="Yes" checked="">&nbsp;&nbsp; 
+					동의하지 않습니다.	<input style="border-color:#FFF;" type="radio" name="ol_6" value="No"> 
+			</td>
+		</tr>
+		<tr>
+			<th>교육진행<br>&nbsp; &nbsp; 및<br>요청사항</th>
+			<td colspan="3">
+				<textarea style="width:600px;height:100px;" name="ol_memo" class="ed" itemname="메모"></textarea>
+			</td>
+		</tr>
+	</tbody></table>
