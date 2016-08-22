@@ -57,7 +57,6 @@
     <strong>Copyright &copy; 2016 <a href="#">창휘 성희롱 방지 대책 본부</a>.</strong> All rights
     reserved.
   </footer>
-<%@include file="../include/13.control_sidebar.jsp"%>
 </div>												<!-- ./wrapper -->
 
 <%@include file="../include/14.footer_script.jsp"%>

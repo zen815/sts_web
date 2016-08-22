@@ -1,0 +1,308 @@
+<html lang="ko" class=" modernizr-js modernizr-flexbox modernizr-flexboxlegacy modernizr-canvas modernizr-canvastext modernizr-webgl modernizr-no-touch modernizr-geolocation modernizr-postmessage modernizr-websqldatabase modernizr-indexeddb modernizr-hashchange modernizr-history modernizr-draganddrop modernizr-websockets modernizr-rgba modernizr-hsla modernizr-multiplebgs modernizr-backgroundsize modernizr-borderimage modernizr-borderradius modernizr-boxshadow modernizr-textshadow modernizr-opacity modernizr-cssanimations modernizr-csscolumns modernizr-cssgradients modernizr-cssreflections modernizr-csstransforms modernizr-csstransforms3d modernizr-csstransitions modernizr-fontface modernizr-generatedcontent modernizr-video modernizr-audio modernizr-localstorage modernizr-sessionstorage modernizr-webworkers modernizr-applicationcache modernizr-svg modernizr-inlinesvg modernizr-smil modernizr-svgclippaths"><head>
+<!-- META -->
+<meta charset="utf-8">
+<meta name="Generator" content="XpressEngine">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- TITLE -->
+<title>중앙EFR교육센터</title>
+<!-- CSS -->
+<link rel="stylesheet" href="/common/css/xe.min.css?20160415154217">
+<link rel="stylesheet" href="/addons/popup_opener/popup_opener.css?20130523185244">
+<link rel="stylesheet" href="/common/js/plugins/ui/jquery-ui.min.css?20160415154217">
+<link rel="stylesheet" href="/layouts/xedition_r/css/layout.min.css?20160510181907">
+<link rel="stylesheet" href="/layouts/xedition_r/css/idangerous.swiper.css?20160509184228">
+<link rel="stylesheet" href="/layouts/xedition_r/css/welcome.min.css?20160509184228">
+<link rel="stylesheet" href="/layouts/xedition_r/css/webfont.min.css?20160509184228">
+<link rel="stylesheet" href="/common/xeicon/xeicon.min.css?20160415154217">
+<link rel="stylesheet" href="/layouts/xedition_r/css/widget.login.min.css?20160509184228">
+<link rel="stylesheet" href="/modules/editor/styles/ckeditor_light/style.css?20160415154217">
+<!-- JS -->
+<!--[if lt IE 9]><script src="/common/js/jquery-1.x.min.js?20160415154217"></script>
+<![endif]--><!--[if gte IE 9]><!--><script src="/common/js/jquery.min.js?20160415154217"></script>
+<!--<![endif]--><script src="/common/js/x.min.js?20160415154217"></script>
+<script src="/common/js/xe.min.js?20160415154217"></script>
+<script src="/addons/popup_opener/jquery.popup_opener.1.5.4.3.js?20130522155150"></script>
+<script src="/layouts/xedition_r/js/layout.min.js?20160509184228"></script>
+<script src="/layouts/xedition_r/js/jquery.parallax-scroll.min.js?20160509184228"></script>
+<script src="/addons/noclick/js/jquery.block.js?20160525112711"></script>
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="Site RSS" href="http://efrjaedu.com/rss"><link rel="alternate" type="application/atom+xml" title="Site Atom" href="http://efrjaedu.com/atom"><!-- ICON -->
+<link rel="shortcut icon" href="http://efrjaedu.com/files/attach/xeicon/favicon.ico"><link rel="apple-touch-icon" href="http://efrjaedu.com/files/attach/xeicon/mobicon.png">
+<meta name="naver-site-verification" content="54876ca85874411ba89bd2f2636342f8b74d9cc0">
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+<link rel="canonical" href="http://efrjaedu.com/">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://efrjaedu.com/">
+<meta property="og:title" content="중앙EFR교육센터">
+<style>*{-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;-moz-user-drag:none;-o-user-drag:none;-ms-user-drag:none;user-drag:none;</style>
+<noscript>&lt;div style="width:100%;height:100%;background-color:#fff;position: fixed;top: 0;left: 0;z-index: 99999;"&gt;&lt;p style="width:100%;position: absolute;top: 50%;text-align: center;"&gt;You cannot see this page without javascript.&lt;/p&gt;&lt;/div&gt;</noscript><script>
+//<![CDATA[
+var current_url = "http://efrjaedu.com/";
+var request_uri = "http://efrjaedu.com/";
+var current_mid = "index";
+var waiting_message = "서버에 요청 중입니다. 잠시만 기다려주세요.";
+var ssl_actions = new Array();
+var default_url = "http://efrjaedu.com/";
+xe.current_lang = "ko";
+xe.cmd_find = "찾기";
+xe.cmd_cancel = "취소";
+xe.cmd_confirm = "확인";
+xe.msg_no_root = "루트는 선택 할 수 없습니다.";
+xe.msg_no_shortcut = "바로가기는 선택 할 수 없습니다.";
+xe.msg_select_menu = "대상 메뉴 선택";
+//]]>
+</script>
+</head>
+<body>
+<p class="skip"><a href="#content">메뉴 건너뛰기</a></p>
+<div class="container onepage">
+	<!-- HEADER -->
+	<div class="header_wrap xe-clearfix">
+		<header class="header sub sub_type3">
+			
+			<h1 class="logo-item">
+												<a href="/">
+																									<img src="http://efrjaedu.com/files/attach/images/831/ff3465145fed14004f21e565f8ab179c.png" alt="">
+															</a>
+			</h1>
+			
+			<div class="side">
+				<ul>
+					<!-- search -->
+					<!-- admin -->
+										<!-- login -->
+					<li class="hover">
+													<!-- before_login -->
+							<a href="/index.php?mid=index&amp;act=dispMemberLoginForm" id="ly_btn"><i class="xi-user-add"></i><span class="blind">로그인/회원가입</span></a>
+							<div class="ly ly_login">
+								<ul>
+									<li><a id="ly_login_btn" href="/index.php?mid=index&amp;act=dispMemberLoginForm">로그인</a></li>
+									<li><a href="/index.php?mid=index&amp;act=dispMemberSignUpForm">회원가입</a></li>
+								</ul>
+								<span class="edge"></span>
+							</div>
+							<!-- /before_login -->
+											</li>
+				</ul>
+			</div>
+			<!-- GNB -->
+			<nav class="gnb pc-gnb" id="gnb">
+				<div id="mobile_menu_btn" class="menu_btn">
+					<div class="menu_bar">
+						<div class="btn1"></div>
+						<div class="btn2"></div>
+						<div class="btn3"></div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<a href="/about_center">교육원소개</a>
+												<ul class="depth2">
+							<li>
+								<a href="/about_center">교육원소개</a>
+															</li><li>
+								<a href="/edu_direction">교육방향</a>
+															</li><li>
+								<a href="/edu_lecture">강사소개</a>
+															</li><li>
+								<a href="/edu_location">오시는길</a>
+															</li>						</ul>					</li><li>
+						<a href="/edu_efr">교육내용</a>
+												<ul class="depth2">
+							<li>
+								<a href="/edu_efr">응급처치(EFR)</a>
+															</li><li>
+								<a href="/edu_defibrillators">제세동기</a>
+															</li><li>
+								<a href="/edu_sex">성희롱예방</a>
+															</li><li>
+								<a href="/edu_child">아동학대예방</a>
+															</li><li>
+								<a href="/edu_privacy">개인정보보호</a>
+															</li><li>
+								<a href="/edu_oldman">노인학대예방</a>
+															</li><li>
+								<a href="/edu_fire">소방안전</a>
+															</li>						</ul>					</li><li>
+						<a href="/pds">자료실</a>
+																	</li><li>
+						<a href="/newsfeed">언론자료</a>
+																	</li>				</ul>
+			</nav>			<!-- /GNB -->
+		</header>
+	</div>
+	<!-- END:HEADER -->
+	<!-- VISUAL-SUBHEADER -->
+	<div class="visual sub sub_type3">
+		<span class="bg_img" style="background-image: url(&quot;http://efrjaedu.com/files/attach/images/831/68cae355a0ce12ef2777140854bb3739.jpg&quot;); background-size: contain; background-position: 50% -40px;"></span>
+		<span class="mask"></span>
+		<div class="sub_title">
+			<h1><img src="/layouts/xedition_r/images/index.png" alt="중앙EFR교육센터"></h1>
+			<p>EFR(Emergnecy First Response)은 세계에서 가장 인정받는 응급처치 교육으로<br>
+ 국내 다양한 분야의 기업 및 단체에서 EFR 교육을 필요로 하고 있습니다.</p>
+		</div>
+	</div>
+	<!-- BODY -->
+	<div class="body fixed-width sub">
+		<!-- LNB -->
+				<!-- /LNB -->
+		<!-- CONTENT -->
+			<div class="content" id="content">
+				<div class="xe_content xe-widget-wrapper " style="float: left; width: 50%; border: 0px solid rgb(0, 0, 0); margin: 0px; height: 95px; background-image: none; background-color: rgb(229, 229, 229); background-position: 0% 0%; background-repeat: repeat;"><div style="padding:10px 20px 10px 0px !important;"><p style="text-align: right;"><a href="/about_center"><img src="http://efrjaedu.com/files/attach/images/66/066/54717c9e5300f3298a4fa61f965bf298.png" alt="main_07.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 25%; border: 0px solid rgb(229, 229, 229); margin: 0px; height: 95px; background-image: none; background-color: transparent; background-position: 0% 0%; background-repeat: repeat;"><div style="padding:10px 0px 0px 20px !important;"><a href="mailto:bird2king@naver.com"><img src="http://efrjaedu.com/files/attach/images/66/066/afac836db67bcf4bd7916028ed55141c.png" alt="refont_m_03.png" style="" rel="xe_gallery"></a></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 25%; border: 0px solid rgb(0, 0, 0); margin: 0px; height: 95px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="padding:10px 0px 0px 0px !important;"><a href="mailto:bird2king@naver.com"><img src="http://efrjaedu.com/files/attach/images/66/066/f28d7fc700efbdaed6276dec300879ba.png" alt="refont_m_05.png" style="" rel="xe_gallery"></a></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 290px; border: 0px solid rgb(0, 0, 0); margin: 10px 5px; background-image: url('http://efrjaedu.com/files/attach/images/66/066/a88ad61cc80723f0eea6dbb2a1cc8d61.jpg'); background-position: 50% 30%; background-repeat: no-repeat;"><div style="padding:140px 0px 10px 0px !important;"><p style="text-align: center;"><a href="/edu_efr"><img src="http://efrjaedu.com/files/attach/images/66/066/21786342084b56333f3b914b0fb6faf2.png" alt="refont_m_10.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 290px; border: 0px solid rgb(0, 0, 0); margin: 10px 5px; background-image: url('http://efrjaedu.com/files/attach/images/66/066/5b70be6b994709e9b23a5a9ed5370f09.jpg'); background-position: 50% 40%; background-repeat: repeat;"><div style="padding:140px 0px 10px 0px !important;"><p style="text-align: center;"><a href="/edu_defibrillators"><img src="http://efrjaedu.com/files/attach/images/66/066/fef4e7fdec9abf2a9f4767d7e1009ede.png" alt="refont_m_12.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 290px; border: 0px solid rgb(0, 0, 0); margin: 10px 5px; background-image: url('http://efrjaedu.com/files/attach/images/66/066/9c723c8961146dd8fa6d0d21a746860a.jpg'); background-position: 50% 0%; background-repeat: repeat;"><div style="padding:140px 0px 10px 0px !important;"><p style="text-align: center;"><a href="/edu_sex"><img src="http://efrjaedu.com/files/attach/images/66/066/ceef9487774a8bd96b5451db8764ed97.png" alt="refont_m_14.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 290px; border: 0px solid rgb(0, 0, 0); margin: 10px 5px; background-image: url('http://efrjaedu.com/files/attach/images/66/066/6ee9706e8624a5d14d7eb631b804a582.jpg'); background-position: 50% 0%; background-repeat: repeat;"><div style="padding:140px 0px 10px 0px !important;"><p style="text-align: center;"><a href="/edu_child"><img src="http://efrjaedu.com/files/attach/images/66/066/5aa86ee0aa2cf76dac5e8b79337d0344.png" alt="refont_m_16.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe-widget-wrapper " style="float: left; width: 100%; height: 1px; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-color: rgb(228, 52, 47); background-position: 0% 0%; background-repeat: repeat;;;;;;;;;;;;;;;;;;;;;;;;;;"><div style="padding:0px 0px 0px 0px !important;"><div></div></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 25%; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-color: rgb(228, 52, 47); background-position: 0% 0%; background-repeat: repeat;"><div style="padding:20px 0px 20px 0px !important;"><p style="text-align: center;"><a href="/edu_efr"><img src="http://efrjaedu.com/files/attach/images/66/066/85beadfa721189a9a6b38bb2125703d1.png" alt="refont_m_23.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 25%; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="padding:20px 0px 20px 0px !important;"><p style="text-align: center;"><a href="/pds"><img src="http://efrjaedu.com/files/attach/images/66/066/b1e70da95f90dfa79c57c0f5e0dc0643.png" alt="refont_m_25.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 25%; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-color: rgb(228, 52, 47); background-position: 0% 0%; background-repeat: repeat;"><div style="padding:20px 0px 20px 0px !important;"><p style="text-align: center;"><a href="/newsfeed"><img src="http://efrjaedu.com/files/attach/images/66/066/6cf235ffe8c0d645f0fe7c45e1bd6436.png" alt="refont_m_27.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 25%; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="padding:20px 0px 20px 0px !important;"><p style="text-align: center;"><a href="/edu_location"><img src="http://efrjaedu.com/files/attach/images/66/066/a28c541a76a4f714d4427d6a8e3bf024.png" alt="refont_m_29.png" style="" rel="xe_gallery"></a></p></div></div><div class="xe-widget-wrapper " style="float: left; width: 100%; height: 1px; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-color: rgb(228, 52, 47); background-position: 0% 0%; background-repeat: repeat;;;;;;;;;;;;;;;;;;;;;;;;;"><div style="padding:0px 0px 0px 0px !important;"><div></div></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 50%; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="padding:10px 10px 10px 0px !important;"><p style="text-align: right;"><span style="font-size:18px;"><strong>고객센터</strong></span><span style="font-size:16px;"> 09:00~18:00 (주말/공휴일 휴무)</span></p></div></div><div class="xe_content xe-widget-wrapper " style="float: left; width: 50%; border: 0px solid rgb(0, 0, 0); margin: 0px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="padding:10px 0px 10px 10px !important;"><span style="color:#e4342f;"><span style="font-size:16px;">TEL.</span></span><span style="font-size:18px;"><strong> <a href="tel:16613957" style="color:black;">1661-3957</a> / </strong></span><span style="font-size:16px;"><span style="color:#e4342f;">FAX.</span></span><span style="font-size:18px;"> <strong><a href="tel:07040093129" style="color:black;">070-4009-3129</a></strong></span></div></div>			</div>
+					<!-- /CONTENT -->
+	</div>
+	<!-- END:BODY -->
+	<footer class="footer" style="border-bottom-color:#CDA25A">
+		<div class="f_info_area">
+			<div class="f_info">
+									<p class="f_logo">
+						<a href="/">
+															<img src="http://efrjaedu.com/files/attach/images/831/c0e32df7d6bac6f951113dd243b764f3.png" alt="">
+													</a>
+					</p>
+					<p class="sub_desc">Tel. 1661-3957
+Fax. 070-4009-3129
+Address. 부산시 연제구 반송로 33번길 샤르망라이프 403호</p>
+							</div>
+			<div class="f_info2">
+				<div class="site_map">
+					<ul>
+												<li>
+														<a href="/about_center">교육원소개</a>
+							<ul>
+								<li>
+									<a href="/about_center">교육원소개</a>
+								</li><li>
+									<a href="/edu_direction">교육방향</a>
+								</li><li>
+									<a href="/edu_lecture">강사소개</a>
+								</li><li>
+									<a href="/edu_location">오시는길</a>
+								</li>							</ul>						</li><li>
+														<a href="/edu_efr">교육내용</a>
+							<ul>
+								<li>
+									<a href="/edu_efr">응급처치(EFR)</a>
+								</li><li>
+									<a href="/edu_defibrillators">제세동기</a>
+								</li><li>
+									<a href="/edu_sex">성희롱예방</a>
+								</li><li>
+									<a href="/edu_child">아동학대예방</a>
+								</li><li>
+									<a href="/edu_privacy">개인정보보호</a>
+								</li><li>
+									<a href="/edu_oldman">노인학대예방</a>
+								</li><li>
+									<a href="/edu_fire">소방안전</a>
+								</li>							</ul>						</li><li>
+														<a href="/pds">자료실</a>
+													</li><li class="clear">
+														<a href="/newsfeed">언론자료</a>
+													</li>					</ul>				</div>
+			</div>
+		</div>
+		<div class="f_cr_area">
+			<p class="copyright">
+									copyright (c) 2016 <b>xiso</b>.							</p>
+			<ul class="mobile-footer-member">
+								<li><a href="/index.php?mid=index&amp;act=dispMemberLoginForm">로그인</a></li>
+				<li><a href="/index.php?mid=index&amp;act=dispMemberSignUpForm">회원가입</a></li>
+							</ul>
+		</div>
+	</footer>
+</div>
+<!-- TOP -->
+<a href="#" class="btn_top"><i class="xi-angle-up"><span class="blind">위로</span></i></a>
+<!-- /TOP -->
+<!-- Login widget -->
+<section class="login_widget" style="display:none">
+		<div class="ly_dimmed"></div>
+	<div class="signin">
+		<div class="login-header">
+			<h1>LOGIN</h1>
+		</div>
+		<div class="login-body">
+			<form action="/index.php?act=procMemberLogin" method="post" autocomplete="off"><input type="hidden" name="error_return_url" value="/"><input type="hidden" name="mid" value="index"><input type="hidden" name="vid" value="">
+				<input type="hidden" name="act" value="procMemberLogin">
+				<input type="hidden" name="success_return_url" value="http://efrjaedu.com/">
+				<input type="hidden" name="xe_validator_id" value="layouts/xedition/layout/1">
+				<fieldset>
+					<legend class="blind">로그인</legend>
+					<div class="control-group">
+						<div class="group">
+							<input type="text" name="user_id" id="uemail" required="true">
+							<span class="highlight"></span>
+							<span class="bar"></span>
+							<label class="info_label" for="uemail">아이디</label>
+						</div>
+						<div class="group">
+							<input type="password" name="password" id="upw" required="true">
+							<span class="highlight"></span>
+							<span class="bar"></span>
+							<label class="info_label" for="upw">비밀번호</label>
+						</div>
+					</div>
+										<div class="control-group">
+						<label class="chk_label" for="keepid_opt">
+							<input type="checkbox" name="keep_signed" id="keepid_opt" value="Y">
+							<span class="checkbox"></span> 로그인 유지						</label>
+						<div id="warning">
+							<p style="text-align:right;"><i class="xi-close"></i></p>
+							<p>브라우저를 닫더라도 로그인이 계속 유지될 수 있습니다.<br>로그인 유지 기능을 사용할 경우 다음 접속부터는 로그인할 필요가 없습니다.<br>단, 게임방, 학교 등 공공장소에서 이용 시 개인정보가 유출될 수 있으니 꼭 로그아웃을 해주세요.</p>
+							<div class="edge"></div>
+						</div>
+						<button type="submit" class="btn_submit">로그인</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class="login-footer">
+			<a href="/index.php?mid=index&amp;act=dispMemberFindAccount">ID/PW 찾기</a>
+			<span class="f_bar">|</span>
+			<a href="/index.php?mid=index&amp;act=dispMemberSignUpForm">회원가입</a>
+		</div>
+		<a href="#" class="btn_ly_popup"><span class="blind">닫기</span></a>
+	</div>
+	<script>
+	jQuery(function ($) {
+		var keep_msg = $("#warning");
+		$(".chk_label").on("mouseenter mouseleave focusin focusout", function (e) {
+			if(e.type == "mouseenter" || e.type == "focusin") {
+				keep_msg.show();
+			}
+			else {
+				keep_msg.hide();
+			}
+		});
+		$("#ly_login_btn, #ly_btn").click(function () {
+			$(".login_widget").show();
+			return false;
+		});
+		$(".btn_ly_popup").click(function () {
+			$(".login_widget").hide();
+			return false;
+		});
+		$("input").blur(function () {
+			var $this = $(this);
+			if ($this.val()) {
+				$this.addClass("used");
+			}
+			else {
+				$this.removeClass("used");
+			}
+		});
+	});
+	</script>
+</section><!-- /Login widget -->    
+<script type="text/javascript">//<![CDATA[
+var msg_popup_do_not_display = '%d일 동안 다시보지 않기';
+jQuery(function(){
+});
+//]]></script>
+<!-- ETC -->
+<div class="wfsr"></div>
+<script src="/addons/autolink/autolink.js?20160415154217"></script><script src="/common/js/plugins/ui/jquery-ui.min.js?20160415154217"></script><script src="/common/js/plugins/ui/jquery.ui.datepicker-ko.js?20160415154217"></script><script src="/addons/resize_image/js/resize_image.min.js?20160415154217"></script>
+
+</body></html>

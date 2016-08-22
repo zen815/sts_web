@@ -9,7 +9,7 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  <%@include file="./include/10.header_link.jsp"%>
+  <%@include file="../include/10.header_link.jsp"%>
   
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -993,6 +993,6 @@
 </div>
 <!-- ./wrapper -->
 
-<%@include file="./include/14.footer_script.jsp"%>
+<%@include file="../include/14.footer_script.jsp"%>
 </body>
 </html>

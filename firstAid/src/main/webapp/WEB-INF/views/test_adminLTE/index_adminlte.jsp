@@ -3,34 +3,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Blank Page</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  
-  <%@include file="../views/include/10.header_link.jsp"%>
-  
+  <%@include file="../../views/include/10.header_link.jsp"%>
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue-light">
 <!-- Site wrapper -->
 <div class="wrapper">
 
-<%@include file="./include/11.header.jsp"%>
-<%@include file="./include/12.main_sidebar.jsp"%>
+<%@include file="../include/11.header.jsp"%>
+<%@include file="../include/12.main_sidebar.jsp"%>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Blank page
-        <small>it all starts here</small>
+        응급처치 
+        <small>교육센터</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Examples</a></li>
-        <li class="active">Blank page</li>
       </ol>
     </section>
 
@@ -72,11 +63,10 @@
     <strong>Copyright &copy; 2016 <a href="http://almsaeedstudio.com">창휘 성희롱 방지 대책 본부</a>.</strong> All rights
     reserved.
   </footer>
-<%@include file="./include/13.control_sidebar.jsp"%>
 </div>
 <!-- ./wrapper -->
 
-<%@include file="./include/14.footer_script.jsp"%>
+<%@include file="../include/14.footer_script.jsp"%>
 
 </body>
 </html>
