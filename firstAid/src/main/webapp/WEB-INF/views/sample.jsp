@@ -50,7 +50,7 @@
 </div>					<!-- .boxA -->
 <div class="box3">
 <div class="top">
-<img src="/resources/img/ch5/header.jpg" alt="" class="topimg"/>
+<img src="/resources/img/efr/header.jpg" alt="" class="topimg"/>
 <p class="catch">TimeSwitch는 데이터 축적과 <br> 분석/해석 서비스를 제공합니다.</p>
 </div>					<!-- .top -->
 </div>					<!-- .box3 -->

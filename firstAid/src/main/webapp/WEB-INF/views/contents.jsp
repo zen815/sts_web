@@ -20,7 +20,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->  
   
-<!-- <link rel="stylesheet" href="/resources/css/grid-guide.css"> -->
+<!-- <link rel="stylesheet" href="/resources/css/grid-guide.css"> --> 
 <link rel="stylesheet" href="/resources/css/style.css" type='text/css'>
 </head>
 
@@ -51,6 +51,12 @@
 <div class="box7">
 <div class="box7-1">
   <div class="story">
+  <div class="bread">
+    <ol>
+    <li><a href="#">메인</a></li>
+    <li><a href="#">사업소개</a></li>
+    </ol>
+  </div>
     <h1>데이터 분석/해석</h1>
     <img src="/resources/img/ch5/header.jpg" alt="" class="storyimg">
     <p class="lead">축척된 데이터를 활용하려면 어떻게 분석/해석할지가 중요합니다. 
@@ -67,6 +73,7 @@
 </div>					<!-- .box7-1 -->
 <div class="box7-2">
   <div class="sidemenu">
+    <h1><i class="fa fa-caret-square-o-down"></i>사업 소개</h1>
     <ul>
       <li><a href="#">데이터 축적</a></li>
       <li><a href="#">데이터 분석/해석</a></li>
