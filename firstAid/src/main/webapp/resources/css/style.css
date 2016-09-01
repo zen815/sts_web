@@ -9,7 +9,7 @@ body {
 
 /* site label */
 .site h1 a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 .site h1 {
@@ -18,6 +18,8 @@ body {
 }
 .site img {
 	border: none;
+	width: 40px;
+	height: auto;	
 }
 
 /* header image */
@@ -73,8 +75,22 @@ body {
 	padding-bottom: 15px;
 	background-color: #524e3c;
 	font-size: 12px;
+	opacity: 0.8;
+}
+.summary {
+	position: relative;
 }
 
+.summary img {	
+	max-width: 100%;
+	height: 230px;
+	vertical-align: bottom;
+}
+.summary .catch {
+	position: absolute;
+	bottom: 7%;
+	left: 25%;
+}
 /* main news */
 .news {
 	padding: 20px;
@@ -243,7 +259,7 @@ body {
 	font-size: 16px;
 	font-weight: normal;
 }
-.sidemenu h1 i {
+.sidemenu li i {
 	margin-right: 5px;
 	color: #8abc60;
 	font-size: larger;
