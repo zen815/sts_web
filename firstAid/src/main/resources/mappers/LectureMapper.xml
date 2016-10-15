@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="ac.firstAid.mapper.LectureMapper">
-  <select id="getTime" resultType="string">
+    
+    <select id="getTime" resultType="string">
 		SELECT NOW()
 	</select>
+	
 	<insert id="insertLecture">
 		INSERT INTO tbl_lecture 
 		(regDate, modifyDate, company, chiefName, compNum, compNumSub,
-		 business, busiItem,	compAddr, managerName, position, phone, mobile,
-		 email, emailTax, taxBill, studyAddr, studyNum, 
+		 business, busiItem, managerName, position, phone, mobile, email, emailTax, taxBill,
+		 compZipCode, compAddr, compAddrSub,  
+		 studyZipCode, studyAddr, studyAddrSub,
+		 studyDate, studyTime, studyFrequency, studyHours, studyManNum, 
 		 equip01, equip02, equip03, equip04, memo)
-		 		VALUES ( now(), now(), 	#{company}, #{chiefName}, #{compNum},	#{compNumSub},
-		 #{business}, #{busiItem},	#{compAddr}, #{managerName}, #{position}, #{phone}, #{mobile}, 
-		 #{email}, #{emailTax}, #{taxBill}, #{studyAddr}, #{studyNum},
+		 VALUES ( now(), now(), 	#{company}, 	#{chiefName}, 	#{compNum},	#{compNumSub},
+		 #{business}, #{busiItem},	#{managerName}, #{position}, 	#{phone}, 	#{mobile}, #{email}, #{emailTax}, #{taxBill}, 
+		 #{compZipCode}, 	#{compAddr}, 	#{compAddrSub}, 
+		 #{studyZipCode}, 	#{studyAddr}, 	#{studyAddrSub}, 
+		 #{studyDate}, #{studyTime}, #{studyFrequency}, #{studyHours}, #{studyManNum},
 		 #{equip01}, #{equip02}, #{equip03}, #{equip04}, #{memo} )
 	</insert>
 

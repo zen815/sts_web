@@ -2,24 +2,51 @@
 
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'Jeju Hallasan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/jejuhallasan/v3/JejuHallasan-Regular.ttf) format('truetype');
+}
+
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
+/* @import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css); */
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css); */ 
+
+
+* {
+	font-family: 'Nanum Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;	
+}
+
 body {
 	margin: 0;
-	font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; 
+	font-family: 'Nanum Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; 
 }
+
+/* date picker */
+.ui-datepicker-week-end {color:red;}
+.ui-datepicker-week-end .ui-state-default {color:red;}
 
 /* site label */
 .site h1 a {
 	color: #000000;
 	text-decoration: none;
+	/* font-family: 'Nanum Brush Script'; */
+	font-family: 'Jeju Hallasan';
 }
 .site h1 {
 	margin: 0;
-	font-size: 30px;
+	font-size: 32px;
 }
 .site img {
 	border: none;
 	width: 40px;
 	height: auto;	
+}
+.site h1 i {
+	color: rgba(250, 5, 5, 0.9);
+	margin-right: 5px;
+	font-family: ''Nanum Pen';
 }
 
 /* header image */
@@ -28,20 +55,20 @@ body {
 	height: auto;
 	vertical-align: bottom;
 }
+
 /* catch copy */
 .catch {
 	margin: 0;
 	padding: 15px;
 	background-color: rgba(255, 255, 255, 0.7);
 	font-size: 28px;
-}
-/* 헤더 그림에 캐치 카피를 중첩 */
-.top { position: relative; }
-.catch {
+	/* 헤더 그림에 캐치 카피를 중첩 */
 	position: absolute;
 	bottom: 7%;
 	left: 3%;
 }
+.top { position: relative; }
+
 /* summary */
 .summary a{
 	display:block;
@@ -91,6 +118,7 @@ body {
 	bottom: 7%;
 	left: 25%;
 }
+
 /* main news */
 .news {
 	padding: 20px;
@@ -116,24 +144,24 @@ body {
 	text-decoration: none;
 }
 .news li a:hover { background-color: #eeeeee; }
-.news time {	
-	color: #888888;
-	font-weight: bold;
-}
+
 .news a:after {
 	content: "";
 	display: block;
 	clear: both;
 }
 .news time {
-	float: left;
 	width: 60px;
+	color: #888888;
+	font-weight: bold;
+	float: left;	
 }
 .news .text {
 	float: none;
 	width: auto;
 	margin-left: 60px;
 }
+
 /* SNS menu */
 .follow ul {
 	margin: 0;
@@ -159,6 +187,7 @@ body {
 	font-size: 20px;
 	vertical-align: middle; 
 }
+
 /* 추가 설명 */
 .follow p {
 	margin-top: 0;
@@ -186,6 +215,7 @@ body {
 	border-width: 15px;
 	margin-left: -15px;
 }
+
 /* article story */
 .story h1 {
 	margin-top: 0;
@@ -196,7 +226,7 @@ body {
 	font-weight: normal;
 }
 .story p {
-	max-width: 640px;
+	max-width: 95%;
 	margin-top: 0;
 	margin-bottom: 20px;
 }
@@ -211,16 +241,50 @@ body {
 	margin-bottom: 20px;
 }
 .story h2 {
+	width: 95%;
 	margin-top: 50px;
 	margin-bottom: 20px;
 	border-bottom: solid 1px #dddddd;
+	color: #428bca;
 	font-size: 28px;
 	font-weight: normal;
 }
 .story h2 i {
 	margin-right: 7px;
-	color: #888888;
+	color: #d9534f;
 }
+.story h3 {
+	margin-top: 5px;
+	margin-bottom: 20px;	
+	font-size: 16px;
+	font-weight: normal;	
+}
+.story h3 i {
+	margin-right: 7px;
+	color: #d9534f;
+	padding-left: 7px;
+}
+.story h3 span {
+	color: #b0534f;
+	font-size: 13px;
+}
+
+.story .table {
+	width: 95%;
+}
+.story .table th {
+	text-align: center;	
+}
+.story .table ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;	
+}
+.story .table .fa-info-circle {
+	margin-left: 5px;
+	color: #b0534f;
+}
+
 /* bread list */
 .bread { margin-bottom: 20px; }
 .bread ol {
@@ -493,3 +557,4 @@ body {
 		border-bottom: solid 1px #dddddd;
 	}
 }
+

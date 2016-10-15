@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-witdh">
+<meta name="viewport" content="width=device-witdh, initial-scale=1.0">
 
 <title>대한 응급처치 교육</title>
 <link rel="stylesheet" href="/webjars/bootstrap/3.3.7/dist/css/bootstrap.min.css" type='text/css'>
@@ -29,7 +29,7 @@
 <div class="boxA-inner">
 <div class="box1">
   <div class="site">
-    <h1><a href="/"><img src="/resources/img/efr/cpr-first-aid.png" alt="">대한응급처치교육원</a></h1>
+    <h1><a href="/"><i class="fa fa-heartbeat"></i>대한응급처치교육원</a></h1>
   </div>
 </div>					<!-- .box1 -->
 <div class="box2">
@@ -38,9 +38,9 @@
   </button>
   <div class="menu" id="menu">
   <ul>
-    <li><a href="#">교육원소개</a></li>
+    <li><a href="/about/">교육원소개</a></li>
     <li><a href="#">교육내용</a></li>
-    <li><a href="#">출강교육</a></li>
+    <li><a href="/lecture/">출강교육</a></li>
   </ul>
   </div>
 </div>					<!-- .box2 -->
