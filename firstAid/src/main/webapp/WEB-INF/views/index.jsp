@@ -4,9 +4,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-witdh">
+<meta name="viewport" content="width=device-witdh, initial-scale=1.0">
 
-<title>대한 응급 처치 교육</title>
+<title>대한 응급처치 교육원</title>
 <link rel="stylesheet" href="/webjars/bootstrap/3.3.7/dist/css/bootstrap.min.css" type='text/css'>
 <link rel="stylesheet" href="/webjars/bootstrap/3.3.7/dist/css/bootstrap-theme.min.css" type='text/css'>
 <link rel="stylesheet" href="/webjars/font-awesome/4.6.3/css/font-awesome.min.css" type='text/css'>
@@ -29,7 +29,7 @@
 <div class="boxA-inner">
 <div class="box1">
   <div class="site">
-    <h1><a href="#"><img src="/resources/img/ch5/logo-large.png" alt="TimeSwitch" width="250" height="33"></a></h1>
+    <h1><a href="/"><i class="fa fa-heartbeat"></i>대한응급처치교육원</a></h1>
   </div>
 </div>					<!-- .box1 -->
 <div class="box2">
@@ -38,11 +38,9 @@
   </button>
   <div class="menu" id="menu">
   <ul>
-    <li><a href="#">메인</a></li>
-    <li><a href="#">연혁</a></li>
-    <li><a href="#">사업소개</a></li>
-    <li><a href="#">채용정보</a></li>
-    <li><a href="#">문의</a></li>
+    <li><a href="/about">교육원소개</a></li>
+    <li><a href="#">교육내용</a></li>
+    <li><a href="/lecture/">출강교육</a></li>
   </ul>
   </div>
 </div>					<!-- .box2 -->
@@ -50,18 +48,20 @@
 </div>					<!-- .boxA -->
 <div class="box3">
 <div class="top">
-<img src="/resources/img/ch5/header.jpg" alt="" class="topimg"/>
-<p class="catch">TimeSwitch는 데이터 축적과 <br> 분석/해석 서비스를 제공합니다.</p>
+<img src="/resources/img/efr/header.jpg" alt="" class="topimg"/>
+<p class="catch">응급처치는 <br> 당신 가족을 살립니다.</p>
 </div>					<!-- .top -->
 </div>					<!-- .box3 -->
 
 <div class="box6">
 <div class="box6-1">
   <div class="summary">
-    <a href="#">
-    <i class="fa fa-database"></i> 
-    <h1>데이터 분석/해석</h1>
-    <p>목적에 맞는 다양한 각도로<br> 데이터를 분석/해석합니다.</p>
+    <a href="#">    
+    <img src="/resources/img/efr/shutterstock_144247927.jpg" alt=""/> 
+    <div class="catch">
+      <h1>출강 교육</h1>
+      <p>어디든지 찾아가는 출강 교육<br>원하는 시간을 선택하세요.</p>
+    </div>
     </a>
   </div>
 </div>					<!-- .box6-1 -->

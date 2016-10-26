@@ -35,7 +35,7 @@
         <li class="active">신청서 작성</li>
       </ol>
     </section>    
-    <section class="content">					<!-- Main content -->
+    <div class="lectureReg">					<!-- Main content -->
        <div class="row">
         <div class="col-xs-12">
           <div class="box box-primary">
@@ -215,21 +215,13 @@
                   <label class="col-sm-2 control-label">교육현장상황</label>
                   <div class="col-sm-8">
                     <label class="text-primary">
-                      <input type="checkbox" name="r1" class="minimal-red">
-                          빔프로젝트
-                    </label>
+                      <input type="checkbox" name="r1" class="minimal-red">빔프로젝트</label>
                     <label class="text-muted">
-                      <input type="checkbox" name="r2" class="minimal-red">
-                          빔스크린
-                    </label>
+                      <input type="checkbox" name="r2" class="minimal-red">빔스크린</label>
                     <label class="text-info">
-                      <input type="checkbox" name="r3" class="minimal-red" >
-                          강의실
-                    </label>
+                      <input type="checkbox" name="r3" class="minimal-red" >강의실</label>
                     <label class="text-warning">
-                      <input type="checkbox" name="r4" class="minimal-red" >
-                          노트북
-                    </label>
+                      <input type="checkbox" name="r4" class="minimal-red" >노트북</label>
                   </div>
                 </div>
                 
@@ -237,12 +229,12 @@
 	           </div>            				<!-- /.box-body -->
 	           <div class="box-footer well">
 	             <button type="submit" class="btn btn-primary">등록</button>
-	           </div>								<!-- /.box-footer -->
+	           </div>							<!-- /.box-footer -->
             </form>								<!-- /.form -->
           </div>          						<!-- /.box -->
 		 </div>									<!-- /.col-xs-12 -->
-	  </div>										<!-- /.row -->
-    </section>		   							<!-- /.content -->
+	  </div>									<!-- /.row -->
+    </div>		   								<!-- /.content -->
   </div>		 	 								<!-- /.content-wrapper -->
 
   <footer class="main-footer">
@@ -256,12 +248,12 @@
 </div>												<!-- ./wrapper -->
 
 <%@include file="../include/14.footer_script.jsp"%>
-<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 
-<script src="/webjars/adminlte/2.3.3/plugins/datepicker/bootstrap-datepicker.js"></script>  				<!-- bootstrap datepicker -->
-<script src="/webjars/adminlte/2.3.3/plugins/datepicker/locales/bootstrap-datepicker.kr.js"></script>  <!-- bootstrap datepicker -->
+<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+<script src="/webjars/adminlte/2.3.3/plugins/datepicker/bootstrap-datepicker.js"></script>  			<!-- bootstrap datepicker -->
+<script src="/webjars/adminlte/2.3.3/plugins/datepicker/locales/bootstrap-datepicker.kr.js"></script>   <!-- bootstrap datepicker -->
 <script src="/webjars/adminlte/2.3.3/plugins/timepicker/bootstrap-timepicker.min.js"></script>			<!-- bootstrap time picker -->
-<script src="/webjars/moment/2.14.1/min/moment-with-locales.min.js"></script>								<!-- date-range-picker -->
+<script src="/webjars/moment/2.14.1/min/moment-with-locales.min.js"></script>							<!-- date-range-picker -->
 <script src="/webjars/adminlte/2.3.3/plugins/daterangepicker/daterangepicker.js"></script>				<!-- date-range-picker -->
  
 <!-- Page script -->
@@ -345,8 +337,8 @@ moment.locale('ko');
 $(".datepicker").daterangepicker({	
 	format: "YYYY/MM/DD",
 	buttonClasses: "btn btn-sm",
-   applyClass: "btn-success",
-   cancelClass: "btn-default",
+    applyClass: "btn-success",
+    cancelClass: "btn-default",
 	drops: "up",
 	locale: { applyLabel: "적용", cancelLabel: '취소' }  
 }, function(start, end, label) {

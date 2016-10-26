@@ -33,12 +33,12 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "contents";
+		return "index";
 	}
 	
-	@RequestMapping(value = "/blank", method = RequestMethod.GET)
-	public String blank(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+	@RequestMapping(value = "/about", method = RequestMethod.GET)
+	public String about(Locale locale, Model model) {
+		logger.info("about page {}.", locale);
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
@@ -47,7 +47,21 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "blank";
+		return "/about/about";
+	}
+	
+	@RequestMapping(value = "/location", method = RequestMethod.GET)
+	public String location(Locale locale, Model model) {
+		logger.info("location page {}.", locale);
+		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		model.addAttribute("serverTime", formattedDate );
+		
+		return "/about/location";
 	}
 	
 	
