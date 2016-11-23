@@ -39,8 +39,8 @@
   <div class="menu" id="menu">
   <ul>
     <li><a href="/about">교육원소개</a></li>
-    <li><a href="#">교육내용</a></li>
-    <li><a href="/lecture/">출강교육</a></li>
+    <li><a href="/info">교육내용</a></li>
+    <li><a href="/lecture/">원격시스템</a></li>
   </ul>
   </div>
 </div>					<!-- .box2 -->
@@ -57,11 +57,12 @@
 <div class="box6-1">
   <div class="summary">
     <a href="#">    
-    <img src="/resources/img/efr/shutterstock_144247927.jpg" alt=""/> 
-    <div class="catch">
-      <h1>출강 교육</h1>
-      <p>어디든지 찾아가는 출강 교육<br>원하는 시간을 선택하세요.</p>
-    </div>
+    <!-- <img src="/resources/img/efr/shutterstock_144247927.jpg" alt=""/>  -->
+    <!-- <div class="catch"> -->
+    <i class="fa fa-database"></i>
+      <h1>교육원 소개</h1>
+      <p>사람을 살리는 응급처치<br>수준높은 강의를 지원합니다.</p>
+    <!-- </div> -->
     </a>
   </div>
 </div>					<!-- .box6-1 -->
@@ -69,8 +70,8 @@
   <div class="summary">
     <a href="#">
     <i class="fa fa-bar-chart-o"></i>
-    <h1>데이터 시각화</h1>
-    <p>해석 결과는 데이터 시각화해서<br> 활용할 수 있게 합니다.</p>
+    <h1>교육내용</h1>
+    <p>다양한 교육내용을 <br> 확인하세요.</p>
     </a>
   </div>
 </div>					<!-- .box6-2 -->
@@ -78,13 +79,13 @@
   <div class="summary">
     <a href="#">
     <i class="fa fa-envelope"></i>
-    <h1>24시간 지원</h1>
-    <p>24시간 대응 팀으로 <br>장애에 신속하게 대응합니다.</p>
+    <h1>출강 교육</h1>
+    <p>어디든지 찾아가는 출강 교육 <br>원하는 시간을 선택하세요.</p>
     </a>
   </div>
 </div>					<!-- .box6-3 -->
 </div>					<!-- .box6 -->
-<div class="box4">
+<!-- <div class="box4">
 <div class="box4-1">
 <div class="news">
 <h1>공지 사항</h1>
@@ -106,8 +107,8 @@
     <div class="text">그래프 표시의 변경 방식을 쉽게 바꿨습니다.</div>
     </a></li>    
   </ul>
-</div>					<!-- .news -->
-</div>					<!-- .box4-1 -->
+</div>					
+</div>					
 <div class="box4-2">
 <div class="follow">
   <p class="follow-info">최신 정보를 여기서도 받아보세요.</p>
@@ -117,15 +118,10 @@
     <li><a href="#" class="follow-gp"><i class="fa fa-fw fa-google-plus"></i>Google+</a></li>
   </ul>
 </div>
-</div>					<!-- .box4-2 -->
-</div>					<!-- .box4 -->
-<div class="box5">
-<div class="box5-inner">
-<div class="copyright">
-<p>Copyright &copy; 대한 응급처치 교육원</p>
-</div>
-</div>					<!-- .box5-inner -->
-</div>					<!-- .box5 -->
+</div>					
+</div>	 -->				
+<%@include file="./include/footer.jsp"%>
+
 
 <script src="/webjars/jquery/2.2.4/dist/jquery.min.js"></script>    
 <script src="/webjars/bootstrap/3.3.7/dist/js/bootstrap.min.js"></script>

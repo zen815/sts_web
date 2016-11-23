@@ -39,8 +39,8 @@
   <div class="menu" id="menu">
   <ul>
     <li><a href="/about">교육원소개</a></li>
-    <li><a href="#">교육내용</a></li>
-    <li><a href="/lecture/">출강교육</a></li>
+    <li><a href="/info">교육내용</a></li>
+    <li><a href="/lecture/">원격시스템</a></li>
   </ul>
   </div>
 </div>					<!-- .box2 -->
@@ -192,13 +192,8 @@
   </div>
 </div>
 </div>
-<div class="box5">
-<div class="box5-inner">
-<div class="copyright">
-<p>Copyright &copy; 대한 응급처치 교육원</p>
-</div>
-</div>					<!-- .box5-inner -->
-</div>					<!-- .box5 -->
+
+<%@include file="../include/footer.jsp"%>
 
 <script src="/webjars/jquery/2.2.4/dist/jquery.min.js"></script>    
 <script src="/webjars/bootstrap/3.3.7/dist/js/bootstrap.min.js"></script>

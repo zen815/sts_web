@@ -60,7 +60,7 @@ body {
 .catch {
 	margin: 0;
 	padding: 15px;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 100, 255, 0.9);
 	font-size: 28px;
 	/* 헤더 그림에 캐치 카피를 중첩 */
 	position: absolute;
@@ -85,8 +85,10 @@ body {
 	font-size: 38px; 
 }
 .summary .fa-database { background-color: #bfbd13; }
+.summary .fa-circle-o-notch { background-color: #C58839; }
 .summary .fa-bar-chart-o { background-color: #C58839; }
 .summary .fa-envelope { background-color: #859F46; }
+
 .summary h1 {
 	margin-top: 0;
 	margin-bottom: 0;

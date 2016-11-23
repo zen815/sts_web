@@ -90,12 +90,12 @@ private static final Logger logger = LoggerFactory.getLogger(LectureDAOTest.clas
 			GregorianCalendar calendar = new GregorianCalendar();
 			// SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			Date studyDate = calendar.getTime();
-			vo.setStudyDate(studyDate);
+			vo.setStudyDate(studyDate.toString());
 			vo.setEquip01(false);
 			vo.setEquip02(true);
 			vo.setEquip03(false);
 			vo.setEquip04(true);
-			vo.setStudyNum(i);
+			vo.setStudyManNum(i);
 			
 			vo.setMemo("메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 메모 ");
 			
