@@ -45,7 +45,7 @@
   <div class="menu" id="menu">
   <ul>
     <li><a href="/about">교육원소개</a></li>
-    <li><a href="/info">교육내용</a></li>
+    <li><a href="/information/">교육내용</a></li>
     <li><a href="/lecture/">원격시스템</a></li>
   </ul>
   </div>

@@ -49,7 +49,7 @@
 <div class="box7">
 <div class="box7-1">
   <div class="story">  
-    <h1>출강교육(응급처치 심폐소생술)</h1>
+    <h1>BLS (Basic Life Support)</h1>
     <h2><i class="fa fa-check-square-o"></i>심폐소생술이란?</h2>    
     <p>호흡곤란이나 심장마비 같은 증상에서 생존율을 90%까지 끌어올릴 수 있는 매우 중요한 초기 응급조치입니다.
             보건복지부에 따르면 급성 심장정지가 발생했을 때 국내 일반인 심폐소생술 시행률은 2013년 기준 8.7% 수준이라고 합니다.</p>
@@ -186,8 +186,8 @@
 <div class="box7-2">
   <div class="sidemenu">    
     <ul>
-      <li><a href="/lecture/"><i class="fa fa-caret-square-o-down"></i>안내 및 비용</a></li>
-      <li><a href="/lecture/register">교육신청</a></li>            
+      <li><a href="/lecture/"><i class="fa fa-caret-square-o-down"></i>BLS</a></li>
+      <li><a href="/lecture/register">EFR</a></li>            
     </ul>
   </div>
 </div>

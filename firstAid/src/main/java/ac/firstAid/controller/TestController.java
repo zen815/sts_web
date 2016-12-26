@@ -15,7 +15,7 @@ import ac.firstAid.service.LectureService;
 @Controller
 @RequestMapping("/test/*")
 public class TestController {
-private static final Logger logger = LoggerFactory.getLogger(LectureController.class);
+private static final Logger logger = LoggerFactory.getLogger(TestController.class);
 	
 	@Inject
 	private LectureService service;

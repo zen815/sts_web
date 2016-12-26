@@ -39,7 +39,7 @@
   <div class="menu" id="menu">
   <ul>
     <li><a href="/about">교육원소개</a></li>
-    <li><a href="/info">교육내용</a></li>
+    <li><a href="/information/">교육내용</a></li>
     <li><a href="/lecture/">원격시스템</a></li>
   </ul>
   </div>
@@ -58,8 +58,6 @@
   <div class="sidemenu">    
     <ul>
       <li><a href="/about">교육원 소개</a></li>
-      <li><a href="#">교육방향</a></li>
-      <li><a href="#">강사소개</a></li>
       <li><a href="/location"><i class="fa fa-caret-square-o-down"></i>오시는길</a></li>      
     </ul>
   </div>

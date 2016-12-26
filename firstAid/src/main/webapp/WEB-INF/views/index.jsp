@@ -39,7 +39,7 @@
   <div class="menu" id="menu">
   <ul>
     <li><a href="/about">교육원소개</a></li>
-    <li><a href="/info">교육내용</a></li>
+    <li><a href="/information/">교육내용</a></li>
     <li><a href="/lecture/">원격시스템</a></li>
   </ul>
   </div>
@@ -56,7 +56,7 @@
 <div class="box6">
 <div class="box6-1">
   <div class="summary">
-    <a href="#">    
+    <a href="/about">    
     <!-- <img src="/resources/img/efr/shutterstock_144247927.jpg" alt=""/>  -->
     <!-- <div class="catch"> -->
     <i class="fa fa-database"></i>
@@ -68,7 +68,7 @@
 </div>					<!-- .box6-1 -->
 <div class="box6-2">
   <div class="summary">
-    <a href="#">
+    <a href="/information/">
     <i class="fa fa-bar-chart-o"></i>
     <h1>교육내용</h1>
     <p>다양한 교육내용을 <br> 확인하세요.</p>
@@ -77,7 +77,7 @@
 </div>					<!-- .box6-2 -->
 <div class="box6-3">
   <div class="summary">
-    <a href="#">
+    <a href="/lecture/">
     <i class="fa fa-envelope"></i>
     <h1>출강 교육</h1>
     <p>어디든지 찾아가는 출강 교육 <br>원하는 시간을 선택하세요.</p>

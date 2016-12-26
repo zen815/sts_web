@@ -14,17 +14,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import ac.firstAid.service.LectureService;
 
 @Controller
-@RequestMapping("/info/*")
+@RequestMapping("/information/*")
 public class InfoController {
 
-	private static final Logger logger = LoggerFactory.getLogger(LectureController.class);
-	
-	@Inject
-	private LectureService service;
+	private static final Logger logger = LoggerFactory.getLogger(InfoController.class);	
 	
 	@RequestMapping(value="/", method= RequestMethod.GET)
-	public String lecture(Locale locale, Model model) {
-		logger.info("/info/bls info get ...............");
-		return "/info/BLSInfo";
+	public String InfoBLS(Locale locale, Model model) {
+		logger.info("/information/bls info get ...............");
+		return "/information/BLSInfo";
 	}
 }
