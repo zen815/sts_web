@@ -186,8 +186,8 @@
 <div class="box7-2">
   <div class="sidemenu">    
     <ul>
-      <li><a href="/lecture/"><i class="fa fa-caret-square-o-down"></i>BLS</a></li>
-      <li><a href="/lecture/register">EFR</a></li>            
+      <li><a href="/information/"><i class="fa fa-caret-square-o-down"></i>BLS</a></li>
+      <li><a href="/information/register">EFR</a></li>            
     </ul>
   </div>
 </div>
